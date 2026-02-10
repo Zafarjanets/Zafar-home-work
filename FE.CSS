@@ -102,6 +102,37 @@
     display: flex;
     align-items: center;
 }
+.mm img{
+ width: 600px;
+}
+.sa{
+   display: flex; 
+}
+.bac{
+    background-color: #476178;
+    height: 335px;
+    padding-left: 30px;
+    color: white;
+    width: 100% ;
+}
+.bac h1{
+    margin-top: 100px;
+    
+}
+.dds{
+   width: 300px;
+   margin: 10px 0px;
+
+}
+.but2{
+    padding: 8px 20px;
+    width: 240px;
+    border-radius: 20px;
+    border: none;
+ color: white;
+ background-color: #E53624;
+}
+
 @media( max-width:510px){
 
      .d {
@@ -210,6 +241,45 @@
     .oxir h5 {
         font-size: 12px;
     }
+
+
+   .sa{ 
+    flex-direction: column;
+   }
+   .mm img{
+ width: 450px;
+   }
+.bac{
+    width: 420px;
 }
+.bac h1{
+    font-size: 50px;
+    margin-top: 10px;
+}
+.dds{
+    font-size: 18px;
+}
+.but2{
+    width: 300px;
+}       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
+
+
