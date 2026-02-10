@@ -132,6 +132,47 @@
  color: white;
  background-color: #E53624;
 }
+.ola{
+    background-color: rgb(36, 36, 55);
+    width: 230px;
+    height: 199px;
+    padding: 10px;
+    margin-top: 40px;
+}
+.text-border{
+ border: 1px solid white;
+ color: white;
+ width: 100px;
+ padding-top: 8px;
+ text-align: center;
+ border-radius: 50px;
+ height: 30px;
+
+}
+.f{
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+.obw{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.ssc img{
+    width: 250px;
+    height: 220px;
+
+}
+.k{
+    margin-top: -30px;
+}
+.h1s{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 50px;
+    margin-bottom: -30px;
+}
 
 @media( max-width:510px){
 
@@ -241,8 +282,6 @@
     .oxir h5 {
         font-size: 12px;
     }
-
-
    .sa{ 
     flex-direction: column;
    }
@@ -262,6 +301,21 @@
 .but2{
     width: 300px;
 }       
+.obw{
+    flex-wrap: nowrap;
+    overflow: auto;
+    gap: 20px;
+align-items: center;
+}
+.ola{
+    min-width: 50%;
+}
+.ssa{
+    min-width: 50%;
+}
+.k{
+    margin-top: 10px;
+}
 
 
 
